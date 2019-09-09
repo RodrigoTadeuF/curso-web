@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unidades #01</title>
+    <style>
+        .unidades-absolutas {
+            position: absolute;
+            font-size: 40px;
+            padding: 20px;
+            border: solid 5px #222;
+            margin: 30px;
+            width: 4cm; /*pouco usado*/
+            height: 20mm; /*pouco usado*/
+            top: 150px;
+            left: 200px;
+        }
+
+        .unidades-relativas {
+            position: absolute;
+            font-size: 4em; /* em -> faz referência direta em relação a unidade padrão e proporciona a partir dela */
+            padding: 5%;
+            border: solid 1vw #222; /* 1 vw 1/100 do tamanho da visão dreferente a largura w = width*/
+            margin: 8%;
+            width: 20vw;
+            height: 15vh; /* vh = vw só que o h = height */
+            bottom: 5%;
+            right: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="unidades-absolutas">Opa!</div>
+    <div class="unidades-relativas">Epa!</div>
+</body>
+
+</html>
