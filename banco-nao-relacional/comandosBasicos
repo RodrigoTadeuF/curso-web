@@ -1,0 +1,15 @@
+help                              // ve os comandos
+cls                               // limpa a tela
+show dbs                          // mostra os bancos  
+use wm                            // cria um banco
+show dbs                            
+db.createCollection('estados')    // cria coleção - bancos não relacionais são case sensitive
+show dbs                          // mostrará agora o banco wm por que ele tem uma coleção associada  
+show collections                  // mostrará as coleções
+db.createCollection('Estados')
+show collections
+db.Estados.drop()                 // deletará a coleção
+show collections
+db.estados.drop()
+show collections
+show dbs
